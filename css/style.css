@@ -4503,7 +4503,7 @@ input[type="button"].btn-block {
 .card-body {
   flex: 1 1 auto;
   min-height: 1px;
-  padding: 1.25rem;
+  
 }
 
 .card-title {
@@ -9677,6 +9677,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   body {
     min-width: 992px !important;
+    position: relative;
   }
   .container {
     min-width: 992px !important;
@@ -9958,6 +9959,7 @@ h6,
  height: auto;
 }
 .imgheader{
- width: 80%;
- height: auto;
-}
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+ }
